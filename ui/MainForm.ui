@@ -1,0 +1,196 @@
+<ui version="4.0" >
+ <class>MainForm</class>
+ <widget class="QMainWindow" name="MainForm" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>Puerto Rico</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>19</y>
+     <width>1024</width>
+     <height>730</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGames" >
+    <property name="title" >
+     <string>Partie</string>
+    </property>
+    <widget class="QMenu" name="menuNewGame" >
+     <property name="title" >
+      <string>Nouvelle partie</string>
+     </property>
+     <addaction name="action2PlayersGame" />
+     <addaction name="action3PlayersGame" />
+     <addaction name="action4PlayersGame" />
+     <addaction name="action5PlayersGame" />
+    </widget>
+    <addaction name="actionQuickGame" />
+    <addaction name="separator" />
+    <addaction name="menuNewGame" />
+    <addaction name="actionLoadGame" />
+    <addaction name="actionSaveGame" />
+    <addaction name="separator" />
+    <addaction name="actionQuit" />
+   </widget>
+   <widget class="QMenu" name="menuAbout" >
+    <property name="title" >
+     <string>A propos de Puerto Rico</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuOptions" >
+    <property name="title" >
+     <string>Options</string>
+    </property>
+    <addaction name="actionCardsZoom" />
+   </widget>
+   <widget class="QMenu" name="menuHelp" >
+    <property name="title" >
+     <string>Aide</string>
+    </property>
+    <addaction name="actionMoreHelp" />
+    <addaction name="separator" />
+    <addaction name="actionRules" />
+    <addaction name="actionJobsRemind" />
+   </widget>
+   <addaction name="menuGames" />
+   <addaction name="menuOptions" />
+   <addaction name="menuHelp" />
+   <addaction name="menuAbout" />
+  </widget>
+  <widget class="QStatusBar" name="statusBar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>749</y>
+     <width>1024</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionQuitter" >
+   <property name="text" >
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="action2_Joueurs" >
+   <property name="text" >
+    <string>2 Joueurs</string>
+   </property>
+  </action>
+  <action name="action3_Joueurs" >
+   <property name="text" >
+    <string>3 Joueurs</string>
+   </property>
+  </action>
+  <action name="action4_Joueurs" >
+   <property name="text" >
+    <string>4 Joueurs</string>
+   </property>
+  </action>
+  <action name="action5_Joueurs" >
+   <property name="text" >
+    <string>5 Joueurs</string>
+   </property>
+  </action>
+  <action name="actionLoadGame" >
+   <property name="text" >
+    <string>Charger</string>
+   </property>
+  </action>
+  <action name="actionSaveGame" >
+   <property name="text" >
+    <string>Sauvegarder</string>
+   </property>
+  </action>
+  <action name="actionCardsZoom" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="checked" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>Zoom sur les cartes</string>
+   </property>
+  </action>
+  <action name="actionJobsRemind" >
+   <property name="text" >
+    <string>Rappel métiers</string>
+   </property>
+  </action>
+  <action name="actionRules" >
+   <property name="text" >
+    <string>Règles du jeu</string>
+   </property>
+  </action>
+  <action name="actionQuit" >
+   <property name="text" >
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionMoreHelp" >
+   <property name="checkable" >
+    <bool>true</bool>
+   </property>
+   <property name="checked" >
+    <bool>true</bool>
+   </property>
+   <property name="text" >
+    <string>Aide supplémentaire</string>
+   </property>
+  </action>
+  <action name="action2PlayersGame" >
+   <property name="text" >
+    <string>2 Joueurs</string>
+   </property>
+  </action>
+  <action name="action3PlayersGame" >
+   <property name="text" >
+    <string>3 Joueurs</string>
+   </property>
+  </action>
+  <action name="action4PlayersGame" >
+   <property name="text" >
+    <string>4 Joueurs</string>
+   </property>
+  </action>
+  <action name="action5PlayersGame" >
+   <property name="text" >
+    <string>5 Joueurs</string>
+   </property>
+  </action>
+  <action name="actionQuickGame" >
+   <property name="text" >
+    <string>Partie rapide</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
